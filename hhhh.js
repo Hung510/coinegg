@@ -1,6 +1,6 @@
 const axios = require('axios');
 const TG_WEB_APP_DATA = "query_id=AAGsjBRzAAAAAKyMFHNRLVOU&user=%7B%22id%22%3A1930726572%2C%22first_name%22%3A%22D%C6%B0%C6%A1ng%22%2C%22last_name%22%3A%22H%C3%B9ng%22%2C%22language_code%22%3A%22en%22%2C%22allows_write_to_pm%22%3Atrue%7D&auth_date=1718723667&hash=39b12553269549039211a0eb8bf0ad2546c5a8528f052dab06fe85340b8f54a6"; // Copy TG_WEB_APP_DATA trong mục Application của DevTools bỏ vào đây
-let TOKEN = "";
+let TOKEN = "1047b43a46484db6bdd032f69599ff6d";
 const DATA = JSON.stringify({
     "token": TOKEN,
     "egg_uid": '',
